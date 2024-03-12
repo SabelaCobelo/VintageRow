@@ -1,0 +1,133 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ESTE SI*/
+body {
+    background-color: rgb(7, 7, 7);
+    color: rgb(186, 192, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+ul,
+li {
+    display: contents;
+    color: rgb(89, 225, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    text-decoration: none;
+}
+.topper {
+    padding: 50px;
+}
+
+/*ESTE SI*/
+p {
+    width: 95%;
+    display: flex;
+    margin-bottom: 3em;
+}
+
+
+button {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    display:inline-block;
+}
+
+/*ESTE SI*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 50px;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(89, 225, 243);
+    margin: 0;
+}
+
+.container-infoRow p{
+    width: 90%;
+
+}
+
+.container-icon {
+    width: 2%;
+}
+.logo1{
+    background-image: url("./imagenes2/logo/4\ \(2\).jpg") ;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    margin-bottom: 8em;
+
+}
+
+img {
+    width: 700px;
+    height: 800px;
+    padding: 0.4em;
+    align-items: center;
+    display: flex;
+}
+
+iconos2{
+    
+}
+
+
+.fila1 {
+    width: 50%;
+    height: 20%;
+}
+
+
+.bannerpic {
+    background-image: url("../imagenes2/Fondos-banner/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-bottom: 2em;
+
+}
+
+
+/*ESTE SI*/
+footer {
+    color: rgb(222, 154, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    padding: 30px 40px;
+}
+
+.propiedad{
+    color:aliceblue;
+    margin-left: 41px;
+}
+
+.iconos2{
+    display: flex;
+    align-items:first baseline;
+    margin-bottom: 20em;
+}
+
+p{
+    display: flex;
+    align-items: baseline;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
